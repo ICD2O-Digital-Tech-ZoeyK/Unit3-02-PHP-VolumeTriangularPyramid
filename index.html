@@ -1,9 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Title</title>
+      <meta charset="utf-8" />
+      <meta name="description" content="Volume of a Triangular Pyramid" />
+      <meta name="keywords" content="triangular pyramid, volume calculation" />
+      <meta name="author" content="Your Name" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+          <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="./Favicon-1/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./Favicon-1/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="./Favicon-1/favicon-16x16.png" />
+      <link rel="manifest" href="./Favicon-1/site.webmanifest" />
+      
+      <link rel="stylesheet" href="./css/style.css" />
+      <title>Volume of a Triangular Pyramid</title>
   </head>
   <body>
-    <p>Paragraph</p>
+      <main class="content">
+          <h1>Volume of a Triangular Pyramid</h1>
+
+          <center><img src="./images/VolumeTriangularPyramid.jpg" alt="Volume of a triangular pyramid" class="center" width="200" /></center>
+
+          <!-- Form for user input -->
+          <form action="php/calculate.php" method="POST">
+              <label for="a">Base of Triangle (a) (cm)</label>
+              <input type="text" name="a" required />
+
+              <label for="b">Height of Triangle (b) (cm)</label>
+              <input type="text" name="b" required />
+
+              <label for="h">Height of Pyramid (h) (cm)</label>
+              <input type="text" name="h" required />
+
+              <button type="submit">Calculate</button>
+          </form>
+      </main>
   </body>
 </html>
